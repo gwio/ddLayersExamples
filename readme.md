@@ -1,9 +1,10 @@
-*Deepdream Layers Image Examples*
-Collection of images generated with the different layers from the BVLC GoogleNet Model. This might be useful for experimentation. The default settings from the google notebook are used.
+####Deepdream Layers Image Examples
+Collection of images generated with the different layers from the *BVLC GoogleNet Model*. This might be useful for experimentation. The default settings from the google notebook are used.
 https://github.com/google/deepdream
 
-'''
-layer_list = ["conv1/7x7_s2",
+```
+layer_list = [
+"conv1/7x7_s2",
 "pool1/3x3_s2",
 "pool1/norm1",
 "conv2/3x3_reduce",
@@ -85,4 +86,4 @@ layer_list = ["conv1/7x7_s2",
 "inception_5b/pool_proj",
 "inception_5b/output"
 ]
-'''
+```
