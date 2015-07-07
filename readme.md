@@ -2,6 +2,26 @@
 Collection of images generated with the different layers from the *BVLC GoogleNet Model*. This might be useful for experimentation. The default settings from the google notebook are used.
 https://github.com/google/deepdream
 
+
+_________________
+*source*
+
+![default](https://raw.githubusercontent.com/gwio/DD_LayersExamples/master/images/clouds.jpg)
+
+*pool3/3x3_s2*
+
+![default](https://raw.githubusercontent.com/gwio/DD_LayersExamples/master/layers/pool3/3x3_s2/layers_pool3_3x3_s2_2015-07-05-19-33h.jpg)
+
+*inception_5a/pool*
+
+![default](https://raw.githubusercontent.com/gwio/DD_LayersExamples/master/layers/inception_5a/pool/layers_inception_5a_pool_2015-07-05-19-49h.jpg)
+
+...
+
+...
+
+...
+
 ```
 layer_list = [
 "conv1/7x7_s2",
